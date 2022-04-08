@@ -8,7 +8,7 @@ const Post = ({postId}) => {
     useEffect(()=>{
         postsService.getByIdPost(postId).then(({data}) => setPosts(data))
     },[])
-    console.log(postId);
+
     return (
         <div>
             {
