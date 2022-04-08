@@ -1,0 +1,14 @@
+.detals{
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    margin: 10px;
+}
+.jcc{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.w40{
+    width:50%;
+}
