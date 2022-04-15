@@ -5,7 +5,7 @@ const Post = ({post}) => {
     const {id,title}=post
     return (
         <div>
-            {id} -- {title} <Link to={`${id}`} ><b>get Detals</b></Link>
+            {id} -- {title} <Link to={`${id}`} ><b>get Details</b></Link>
         </div>
     );
 };

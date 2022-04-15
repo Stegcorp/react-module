@@ -12,7 +12,7 @@ const PostsPage = () => {
     }, [])
 
     return (
-        <div>
+        <div style={{display:"flex"}}>
             <div>
                 {
                     posts.map(post => <Post key={post.id} post={post}/>)

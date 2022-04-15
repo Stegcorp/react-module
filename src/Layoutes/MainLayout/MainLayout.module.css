@@ -1,15 +1,15 @@
-.hader{
+.header{
     min-height: 50px;
     background-color: #5b5bf1;
     display: flex;
     justify-content: space-around;
     align-content: center;
 }
-.hader a{
+.header a{
     text-decoration: none;
     color: seashell;
     font-size: 50px;
 }
-.hader a[class='active']{
+.header a[class='active']{
     color: yellow;
 }
