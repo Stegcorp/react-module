@@ -1,0 +1,13 @@
+.post{
+    width: 50%;
+}
+.post p{
+    margin: 0;
+}
+.detail{
+    width: 45%;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}

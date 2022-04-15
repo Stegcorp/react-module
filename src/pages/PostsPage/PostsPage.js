@@ -3,6 +3,7 @@ import {Outlet} from 'react-router-dom'
 
 import {postsService} from "../../service";
 import {Post} from "../../components";
+import css from './PostPage.module.css'
 
 const PostsPage = () => {
     const [posts, setPosts] = useState([]);
@@ -12,13 +13,13 @@ const PostsPage = () => {
     }, [])
 
     return (
-        <div style={{display:"flex"}}>
-            <div>
+        <div className={css.main}>
+            <div className={css.post}>
                 {
                     posts.map(post => <Post key={post.id} post={post}/>)
                 }
             </div>
-            <div>
+            <div className={css.detail}>
                 <Outlet/>
             </div>
         </div>

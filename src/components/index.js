@@ -1,4 +1,4 @@
 export * from './Button/Button'
 export * from './Post/Post'
-export * from './'
+export * from './PostDetails/PostDetails'
 export * from './'
