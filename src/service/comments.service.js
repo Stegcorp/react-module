@@ -2,5 +2,9 @@ import {axiosService} from "./axion.service";
 import {urls} from "../constants";
 
 const commentsService={
-    getAll:()=>axiosService.get(urls.comments)
+    getByPostId:(postId)=>axiosService.get(`${urls.posts}/${postId}/comments`)
+}
+
+export {
+    commentsService
 }

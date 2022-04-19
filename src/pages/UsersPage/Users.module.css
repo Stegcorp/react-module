@@ -1,0 +1,9 @@
+.mainter{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 30px;
+    margin-top: 40px;
+}
+.other{
+   min-width: 50%;
+}

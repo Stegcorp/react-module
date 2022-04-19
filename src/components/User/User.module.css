@@ -1,0 +1,13 @@
+.color{
+    color: #178b09;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 42%;
+    margin-left: 30px;
+    border-bottom: 1px solid #178b09 ;
+    margin-bottom: 10px;
+}

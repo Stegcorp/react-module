@@ -3,7 +3,8 @@ import {urls} from "../constants";
 
 const postsService={
     getAll:()=>axiosService.get(urls.posts),
-    getByIdPost:(id)=>axiosService.get(`${urls.posts}/ ${id}`)
+    postById:(id)=>axiosService(`${urls.posts}/${id}`),
+    getByUserId:(userId)=>axiosService.get(`${urls.users}/${userId}/posts`)
 }
 
 export {
