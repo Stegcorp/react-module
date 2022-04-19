@@ -1,12 +1,10 @@
+import {CatAndDog, CounterOne, CounterTwo} from "./components";
 
+const App = () => (
+    <div>
+        <CounterOne/>
 
-
-function App() {
-    return (
-        <div>
-
-        </div>
-    );
-}
+    </div>
+);
 
 export default App;
